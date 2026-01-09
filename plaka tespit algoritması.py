@@ -13,7 +13,7 @@ from datetime import datetime
 # =============================================================================
 # 1. AYARLAR & KONFİGÜRASYON
 # =============================================================================
-VIDEO_SOURCE = "http://10.75.70.121:4747/video" 
+VIDEO_SOURCE = "http://**.**.**.***:4747/video" 
 MODEL_PATH = "engineler/best.engine"       
 YEDEK_MODEL = "ptler/best3.pt"
 KAYIT_KLASORU = "yakalanan_plakalar"
@@ -23,7 +23,7 @@ CONF_THRESHOLD = 0.50
 OKUMA_LIMITI = 12  
 PLAKA_MAX_FRAME = 30 
 
-ARDUINO_PORT = 'COM3'            
+ARDUINO_PORT = 'COM3'  #arduinonun takılı olduğu porta göre değiştirilmeli         
 BAUD_RATE = 9600
 
 # =============================================================================
@@ -141,4 +141,5 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
+
 if arduino: arduino.close()
