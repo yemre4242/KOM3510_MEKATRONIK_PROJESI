@@ -3,7 +3,7 @@ KOM3510 kodlu mekatronik projesi için yapmış olduğumuz araç tanıma ve akı
 
 Proje kodlarının çalışması için öncelikle arduino kodunun arduinoya atılması gerekmekte.
 Daha sonra ise python kodu çalıştırılmalı.Eğer telefon ya da tablet droid cam uygulaması ile bağlı değilse kod çalışmaz.Eğer isteğe bağlı şekilde başka bir harici kamera ya da cihazın 
-kendi kamerası ile de görüntü almak istenirse internet ıp adresinin bulunduğu yere 0(dahili kamera) 1 (harici kamera) yazılmalı.
+kendi kamerası ile de görüntü almak istenirse internet ıp adresinin bulunduğu yere 0 (dahili kamera için), 1 (harici kamera için) yazılmalı.
 
 
 Arduinonun bilgisayara bağlı olduğu porta dikkat edilmeli eğer python üzerinde yanlış port yazılıysa kod hata vermez ama düzgün de çalışmaz.
